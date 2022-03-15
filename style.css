@@ -1,0 +1,19 @@
+.button_div button
+{
+	letter-spacing: 2px;
+	color: #444444;
+	background-color: rgb(166, 241, 52);
+	padding: 5px;
+}
+
+.develpoer
+{
+	color: skyblue;
+	background-color: white;
+	text-shadow: 5px rgb(179, 163, 163);
+	font-size: 18px;
+	text-align: center;
+    width: 100%;
+	padding: 10px;
+}
+

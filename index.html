@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>ANIMAL SOUND RECONGNIZER</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+	<script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+	<link rel="stylesheet" href="style.css">
+	</head>
+	<body style="background-image: linear-gradient(to right top, #00ff40, #4ea4cf, #19b921, #521e75, #5f1212);">
+		<div class = "container" style="background-color: green; text-align: center; margin-top: 10px;">
+			<h1 style="font-family: 'Bebas Neue', cursive; color: yellow;">Sound controlled animals</h1>
+			<p style="font-family: 'Permanent Marker', cursive;">Play sounds like : barking, meowing, Elphantsound, Goatsound</p>
+		</div>
+		<div class="object_accuracy" id="results" style="background-color: grey; color: white; margin-top: 60px; margin-bottom: 60px; margin-left: 60px; margin-right: 60px;;">
+			<div class="animal_accuracy" id="animals-accuracys">
+			<h3 id="object_animal" style='text-align:center;'>I can hear - </h3>
+			<h3 id="animal_detector"></h3>
+			</div>
+			<hr>
+			<div class="button_div" id="start">
+				<center>
+				<button class="btn btn-warning" onclick="sound_Started();">START</button>
+			</center>
+			</div>
+		</div>
+		<div class="image-div">
+			<center>
+			<img src="listen-image.gif" id="pet_images" width="400" height="300">
+		</center>
+		</div><br><br>
+		<hr>
+		<div class="develpoer">
+			Developed by - Swastik Sibam Nayak..
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
